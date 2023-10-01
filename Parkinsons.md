@@ -1,4 +1,4 @@
-#Detecting Parkinson's Disease with XGBoost
+# Detecting Parkinson's Disease with XGBoost
 
 >Q. What is Parkinson's Disease?
 
@@ -58,5 +58,5 @@ y_pred=model.predict(x_test)
 print(accuracy_score(y_test, y_pred)*100)
 ```
 
-#Summary
+# Summary
 In this project, we learned to detect the presence of Parkinson’s Disease in individuals using various factors. We used an XGBClassifier for this and made use of the sklearn library to prepare the dataset. This gives us an accuracy of 94.87%.
